@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="../CSS/Form.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Teacher Login</title>
+    <title>Student SignUp</title>
   </head>
   <body>
     <div class="container">
-        <h3>Teacher Login</h3>
+        <h3>Student SignUp</h3>
         <div class="card">
             <img src="../Images/undraw_profile.svg" alt="" class="card-img-top">
+        <form action="">
             <div class="form-group">
-            <form>
+                <label for="email">Email Id:</label>
+                <input type="email" name="email" class="form-control">
                 <label for="uname">User Name:</label>
                 <input type="text" name="uname" class="form-control">
                 <label for="pwd">Password:</label>
                 <input type="password" name="pwd" class="form-control">
-                <button type="submit" class="btn btn-primary submit">Sign In</button>
-            </form> 
+                <label for="re_pwd">Confirm Password:</label>
+                <input type="password" name="re_pwd" class="form-control">
+                <button type="submit" class="btn btn-primary submit">Sign Up</button>               
             </div>
-            
+        </form>
         </div>
-        <h6>New to this?<a href="Teacher_Signup.html">Sign Up</a></h6>
+
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
