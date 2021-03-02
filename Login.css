@@ -1,0 +1,39 @@
+*{
+    margin:0;padding:0;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container {
+    margin:4.5rem auto;
+    width:45rem;
+}
+.container h1{
+    text-align: center;
+    padding: 1rem;
+}
+.card img{
+    height:20rem;
+    width:20rem;
+    margin:auto;
+}
+.card{
+    width:30rem;margin: auto;
+}
+.form-group label{
+    padding:0.5rem 5rem
+}
+.form-group input{
+    width:22rem;margin:auto;
+}
+.form-group button{
+    padding:1rem 2rem;
+    margin:1rem 3.1rem;
+    border-radius: 3.5rem;
+    outline: none;
+}
+.form-group .submit{
+    float:left;
+    margin-left:3.8rem
+}
+.form-group .right{
+    
+}
